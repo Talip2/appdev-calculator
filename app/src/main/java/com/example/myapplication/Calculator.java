@@ -43,7 +43,7 @@ public class Calculator {
                     case '÷':
                         stack.push(val2 / val1);
                         break;
-                    case '*':
+                    case '×':
                         stack.push(val2 * val1);
                         break;
                 }

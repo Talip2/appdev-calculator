@@ -37,26 +37,26 @@
                 <Button
                     android:id="@+id/btnCalcSeven"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="100dp"
 
                     android:text="@string/Seven" />
 
                 <Button
                     android:id="@+id/btnCalcEight"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/Eight" />
 
                 <Button
                     android:id="@+id/btnCalcNine"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/Nine" />
 
                 <Button
                     android:id="@+id/btnCalcDivide"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/Divide" />
             </TableRow>
 
