@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlButtonExercise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnAct1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/Act1"
+
+            />
+
+        <Button
+            android:id="@+id/btnAct2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/Act2" />
+
+        <Button
+            android:id="@+id/btnAct4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/Act4" />
+
+        <Button
+            android:id="@+id/btnAct3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/Act3" />
+
+        <Button
+            android:id="@+id/btnAct5"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="200dp"
+            android:text="@string/btnBckGrndChange" />
+
+        <Button
+            android:id="@+id/btnAct6"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"
+            android:layout_marginBottom="300dp"
+            android:text="@string/BckGrndChange" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

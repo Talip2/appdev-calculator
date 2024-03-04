@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="LayoutExer">Layout Exercise</string>
+    <string name="ButtonExer">Button Exercise</string>
+    <string name="CalcuExer">Calculator Exercise</string>
+    <string name="Act1">Return to main</string>
+    <string name="Act2">Activity 2</string>
+    <string name="Act3">Activity 3</string>
+    <string name="Act4">Activity 4</string>
+    <string name="btnBckGrndChange">Change Button Background </string>
+    <string name="BckGrndChange">Change Background</string>
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+    <string name="Zero">0</string>
+    <string name="Divide">÷</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="Decimal">.</string>
+    <string name="Equal">=</string>
+    <string name="Multiply">×</string>
+</resources>
