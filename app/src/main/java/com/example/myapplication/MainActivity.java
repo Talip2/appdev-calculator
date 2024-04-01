@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     Button btn2;
     Button btn3;
 
+    Button btn4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,5 +51,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn4 = (Button) findViewById(R.id.btnConnecThree);
+
+        btn4.setOnClickListener(ConnectThree);
+
+
+
     }
+
+    View.OnClickListener ConnectThree = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent1 = new Intent(MainActivity.this, ConnectThree.class);
+            startActivity(intent1);
+        }
+    };
 }
