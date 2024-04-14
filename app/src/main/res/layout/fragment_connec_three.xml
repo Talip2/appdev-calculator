@@ -19,6 +19,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnR1C1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -30,18 +31,8 @@
                 app:strokeColor="#E1E1E1" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
+                android:id="@+id/btnR1C2"
 
-                android:backgroundTint="@color/white"
-                android:shadowColor="#E6E6E6"
-                app:cornerRadius="100dp"
-                app:rippleColor="@android:color/holo_red_dark"
-                app:strokeColor="#E1E1E1" />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -54,6 +45,8 @@
                 app:strokeColor="#E1E1E1" />
 
             <Button
+                android:id="@+id/btnR1C3"
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -66,6 +59,22 @@
                 app:strokeColor="#E1E1E1" />
 
             <Button
+                android:id="@+id/btnR1C4"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+
+                android:backgroundTint="@color/white"
+                android:shadowColor="#E6E6E6"
+                app:cornerRadius="100dp"
+                app:rippleColor="@android:color/holo_red_dark"
+                app:strokeColor="#E1E1E1" />
+
+            <Button
+                android:id="@+id/btnR1C5"
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -85,6 +94,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnR2C1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -94,6 +104,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR2C2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -103,6 +114,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR2C3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -112,6 +124,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR2C4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -121,58 +134,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:clickable="false"
-                app:cornerRadius="100dp" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:clickable="false"
-                app:cornerRadius="100dp" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:clickable="false"
-                app:cornerRadius="100dp" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:clickable="false"
-                app:cornerRadius="100dp" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:clickable="false"
-                app:cornerRadius="100dp" />
-
-            <Button
+                android:id="@+id/btnR2C5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -189,6 +151,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnR3C1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -198,6 +161,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR3C2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -207,6 +171,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR3C3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -216,6 +181,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR3C4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -225,6 +191,7 @@
                 app:cornerRadius="100dp" />
 
             <Button
+                android:id="@+id/btnR3C5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -241,6 +208,64 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnR4C1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                app:cornerRadius="100dp" />
+
+            <Button
+                android:id="@+id/btnR4C2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                app:cornerRadius="100dp" />
+
+            <Button
+                android:id="@+id/btnR4C3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                app:cornerRadius="100dp" />
+
+            <Button
+                android:id="@+id/btnR4C4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                app:cornerRadius="100dp" />
+
+            <Button
+                android:id="@+id/btnR4C5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                app:cornerRadius="100dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnR5C1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -251,6 +276,7 @@
                 app:rippleColor="#F10808" />
 
             <Button
+                android:id="@+id/btnR5C2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -261,6 +287,7 @@
                 app:rippleColor="#F10808" />
 
             <Button
+                android:id="@+id/btnR5C3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -271,6 +298,7 @@
                 app:rippleColor="#F10808" />
 
             <Button
+                android:id="@+id/btnR5C4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -281,6 +309,7 @@
                 app:rippleColor="#F10808" />
 
             <Button
+                android:id="@+id/btnR5C5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
