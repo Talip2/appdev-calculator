@@ -34,4 +34,14 @@
     <string name="gender">Gender</string>
     <string name="btnPassIntent">Passing Intents</string>
     <string name="btnFragment">Fragments</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnClear">Clear</string>
+    <string name="txtBirthDate">Birth Date</string>
+    <string name="txtPhoneNumber">Phone Number</string>
+    <string name="txtEmailAddress">Email Address</string>
+    <string name="txtHomeAddress">Home Address</string>
+    <string name="txtGSIS">GSIS Pin</string>
+    <string name="txtPassportNumber">Passport Number</string>
+    <string name="txtDriversLicenseNumber">License Number</string>
+    <string name="txtBankAccountNumber">Bank Account Number</string>
 </resources>
