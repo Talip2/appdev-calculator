@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.06" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnPassingIntents"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnPassIntent"
@@ -65,7 +65,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnFragments"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnFragment"
@@ -75,5 +75,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/btnMenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMenus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

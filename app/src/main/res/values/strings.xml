@@ -44,4 +44,12 @@
     <string name="txtPassportNumber">Passport Number</string>
     <string name="txtDriversLicenseNumber">License Number</string>
     <string name="txtBankAccountNumber">Bank Account Number</string>
+    <string name="txtFname">First Name</string>
+    <string name="txtLname">Last Name</string>
+    <string name="txtStudentProfile">Student Profile</string>
+    <string name="txtMale">Male</string>
+    <string name="txtFemale">Female</string>
+    <string name="txtOthers">Others</string>
+    <string name="btnReturn">Return</string>
+    <string name="btnMenus">Menus</string>
 </resources>
