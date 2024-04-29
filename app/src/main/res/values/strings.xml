@@ -52,4 +52,14 @@
     <string name="txtOthers">Others</string>
     <string name="btnReturn">Return</string>
     <string name="btnMenus">Menus</string>
+    <string name="Change">Change</string>
+    <string name="Reset">Reset</string>
+    <string name="Exit">Exit</string>
+    <string name="btnTransformingButton"></string>
+    <string name="empty"></string>
+    <string name="randomColor">Randomize color</string>
+    <string name="cntryBall">Country ball</string>
+    <string name="changePos">Change position</string>
+    <string name="boxy">Turn box</string>
+    <string name="moveLikeDvdD">Move object</string>
 </resources>

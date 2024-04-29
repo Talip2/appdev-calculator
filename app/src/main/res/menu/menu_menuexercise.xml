@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Change"
+        android:id="@+id/mItemchange">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <item
+                android:id="@+id/mItemRandColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/randomColor"
+                />
+            <item
+                android:id="@+id/mItemChangePos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/changePos"
+                />
+            <item
+                android:id="@+id/mItemCntryBall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/cntryBall" />
+            <item
+                android:id="@+id/mItemBoxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/boxy" />
+            <item
+                android:id="@+id/mItemMoveLikeDvD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/moveLikeDvdD" />
+        </menu>
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Reset"
+        android:id="@+id/mItemReset"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Exit"
+        android:id="@+id/mItemExit"/>
 </menu>

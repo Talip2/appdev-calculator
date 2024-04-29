@@ -13,6 +13,8 @@ public class PassingIntentsExercise extends AppCompatActivity {
 
     Button submit;
     Button clear;
+
+    Button retMain;
     RadioButton male;
     RadioButton female;
     RadioButton others;
@@ -48,6 +50,7 @@ public class PassingIntentsExercise extends AppCompatActivity {
         licenseNum = (EditText) findViewById(R.id.txtLicenseNum);
         bankNum = (EditText) findViewById(R.id.txtBankAcc);
         bDate = (EditText) findViewById(R.id.txtBirthDate);
+        retMain = (Button) findViewById(R.id.btnReturnMain);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,6 +94,15 @@ public class PassingIntentsExercise extends AppCompatActivity {
 
                 startActivity(intent);
 
+            }
+        });
+
+
+        retMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PassingIntentsExercise.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 

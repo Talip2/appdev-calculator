@@ -4,6 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#BCBCBC"
     tools:context=".MenuExercise">
+
+    <LinearLayout
+        android:id="@+id/lnrLayoutBtnChanger"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnTransformingButton"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:cornerRadius="520dp"
+            />
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
