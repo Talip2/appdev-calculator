@@ -62,4 +62,5 @@
     <string name="changePos">Change position</string>
     <string name="boxy">Turn box</string>
     <string name="moveLikeDvdD">Move object</string>
+    <string name="openingMap">Opening Maps</string>
 </resources>

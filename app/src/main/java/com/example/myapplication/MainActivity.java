@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,15 +15,10 @@ public class MainActivity extends AppCompatActivity {
     Button btn2;
     Button btn3;
     Button btn4;
-
     Button btn5;
-
-
     Button btn6;
-
-
     Button btn7;
-
+    Button btn8;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -73,12 +69,23 @@ public class MainActivity extends AppCompatActivity {
         btn7 = (Button) findViewById(R.id.btnMenus);
         btn7.setOnClickListener(Menus);
 
+        btn8 = (Button) findViewById(R.id.btnOpenMaps);
+        btn8.setOnClickListener(OpenMap);
+
 
 
 
 
 
     }
+
+    View.OnClickListener OpenMap = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent1 = new Intent(MainActivity.this, OpenMaps.class);
+            startActivity(intent1);
+        }
+    };
 
     View.OnClickListener ConnectThree = new View.OnClickListener() {
         @Override
@@ -87,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent1);
         }
     };
+
 
     View.OnClickListener PassingIntents = new View.OnClickListener() {
         @Override
